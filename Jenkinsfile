@@ -2,7 +2,10 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'S3_BUCKET', defaultValue: 'ci-cd-workshop-frontend-vim index.html', description: 'S3 Bucket for frontend deployment')
+        string(name: 'S3_BUCKET', defaultValue: 'ci-cd-workshop-frontend-
+Successfully edited bucket policy.
+
+ci-cd-project-priyanka', description: 'S3 Bucket for frontend deployment')
     }
 
     environment {
